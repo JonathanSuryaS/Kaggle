@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model(r'C:\Users\user\Documents\GitHub\Kaggle\Age detection\facial_expression.h5')
+model = load_model(r'C:\Users\user\Documents\GitHub\Kaggle\Facial Expression\facial_expression.h5')
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 
